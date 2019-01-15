@@ -1,0 +1,49 @@
+img {
+	width:350px;
+	height: 200px;
+	margin: 5px;
+	transition: all 1s;
+	}
+#pic1 {
+	height: 400px;
+	width: 900px;
+
+}
+img:hover {
+	transform: scale(1.1);
+}
+#pic1 {
+	transform: none;
+}
+p { color: white;
+	font-size: 3em;
+	text-align: center;
+	background-color: rgb(208, 0, 39);
+	margin: -10px;
+
+ }
+.container {
+	margin: 15px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+.button { 
+	background-color: rgb(208, 0, 39);
+	border: 2px solid white;
+	border-radius: 15px;
+	color: white;
+	padding: 30px 50px;
+	font-size: 50px;
+	position: fixed;
+	left: 200px;
+	top: 150px;
+	bottom: 
+	cursor: pointer;
+
+ }
+
+ button:hover {
+ 	background-color: white;
+ 	color: rgb(208, 0, 39);
+ }
